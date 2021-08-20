@@ -99,9 +99,9 @@
 		8AB6EF3826CF41B400FBE272 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8AB6EF6C26CF41E000FBE272 /* Controller */,
 				8AB6EF3926CF41B400FBE272 /* AppDelegate.swift */,
 				8AB6EF3B26CF41B400FBE272 /* SceneDelegate.swift */,
-				8AB6EF3D26CF41B400FBE272 /* ViewController.swift */,
 				8AB6EF3F26CF41B400FBE272 /* Main.storyboard */,
 				8AB6EF4226CF41B500FBE272 /* Assets.xcassets */,
 				8AB6EF4426CF41B500FBE272 /* LaunchScreen.storyboard */,
@@ -126,6 +126,14 @@
 				8AB6EF5D26CF41B600FBE272 /* Info.plist */,
 			);
 			path = CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		8AB6EF6C26CF41E000FBE272 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6EF3D26CF41B400FBE272 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
